@@ -1,0 +1,5 @@
+python-typing-inspect source: file-without-copyright-information
+python-typing-inspect source: no-debian-changes
+python-typing-inspect source: source-contains-prebuilt-windows-binary
+python-typing-inspect source: source-is-missing
+python-typing-inspect source: source-package-encodes-python-version

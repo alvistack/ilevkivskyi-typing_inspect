@@ -1,0 +1,28 @@
+Source: python-typing-inspect
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/ilevkivskyi/typing_inspect/tags
+Vcs-Browser: https://github.com/alvistack/ilevkivskyi-typing_inspect
+Vcs-Git: https://github.com/alvistack/ilevkivskyi-typing_inspect.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-typing-inspect
+Architecture: all
+Description: Runtime inspection utilities for typing module
+ The "typing_inspect" module defines experimental API for runtime
+ inspection of types defined in the standard "typing" module.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-mypy-extensions (>= 0.3.0),
+ python3-typing-extensions (>= 3.7.4),
